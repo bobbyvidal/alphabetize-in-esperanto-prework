@@ -3,4 +3,5 @@ def alphabetize(arr)
   arr.sort_by do |expression|
     expression.split("").map 
     {|char| ESPERANTO_ALPHABET.index(char)}
+  end
 end
